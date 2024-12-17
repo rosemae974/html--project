@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>ON shop</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" type="x-icom" href="favicon.ico">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.col-2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.cart--list{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    
+}
+.card{
+    width: 190px;
+    color: var(--text-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 1rem;
+    border-radius: 10px;
+    background: var(--accent-color);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1)
+}
+.card img{
+    width: 100%;
+}
+.card--price{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.card--price .price{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.add-to-cart {
+    background: var(--primary-color);
+    color: var(--accent-color);
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+.add-to-cart:hover{
+    color: var(--accent-color);
+    box-shadow: rgb(0 0 0 / 30%) 0px 4px 4px , rgb(231, 236, 236) 0px 0px 0px 3px;
+}
+.card{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+              <div class="logo">
+                  <img src="img/logo3.jpg" width="125px">
+              </div>
+              <nav>
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="product.html">Product</a></li>
+                      <li><a href="about.html">About</a></a></li>
+                  </ul>
+              </nav>  
+       </div>
+       <div class="row">
+            <div class="col-2">
+                <h1>Welcome to our Shop</h1>
+            </div>                    
+       </div>
+    </div>
+
+    <div class="card--list">
+        <div class="card">
+            <img src="img/pans1.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/pans2.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/skirt1.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="img/uper1.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/uper2.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/uper3.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/tshirt1.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/tshirt2.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/tshirt3.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/short1.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/short2.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/short3.jpg">
+            <h5 class="card-title">Women's Casual Loose-Fit Wide-Leg </h5>
+
+            <div class="card--price">
+                <div class="price">₱649</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
